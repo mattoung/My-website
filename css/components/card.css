@@ -1,0 +1,92 @@
+.name	{
+	display: flex;
+	justify-content: space-around;
+
+}
+.description	{
+	display: flex;
+	justify-content: space-around;
+	text-align: justify-all;
+	margin-right: 10px;
+	font-size: 15px;
+}
+.founders	{
+	background:#1414b9;
+	padding: 10px;
+	border-radius: 4px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	margin: 10px 0px;
+}
+.founders1	{
+	background: white;
+	padding: 10px;
+	border-radius: 4px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	margin: 10px 10px;
+}
+.founders1	h3	{
+	font-size: 30px;
+}
+
+.headquarters1	{
+	display: flex;
+	justify-content: space-around;
+	flex-basis: 365px;
+	background: white;
+	padding: 10px;
+	border-radius: 4px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	margin: 10px 40px;
+}
+.headquarters1	h3	{
+	align-items: flex-start;
+	object-position: center;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+.headquarters1	h4	{
+	object-position: center;
+	font-size: 10px;
+}
+.headquarters {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+h3	{
+	font-size: 20px;
+	padding: 0px 20px;
+}
+.investment	{
+	display: flex;
+	justify-content: space-between;
+	flex-basis: 600px;
+	background: white;
+	padding: 10px;
+	border-radius: 4px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	margin: 10px 40px;
+}
+.investment	h3	{
+	align-items: flex-start;
+	object-position: center;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+.investment	h4	{
+	font-size: 15px;
+}
+.partnerships	{
+	display: flex;
+	justify-content: space-around;
+	background: white;
+	padding: 10px;
+	border-radius: 4px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	margin: 10px 40px;
+}
+
+#ambitions	h3 {
+	font-size: 20px;
+	font-weight: bold;
+}
